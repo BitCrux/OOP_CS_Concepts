@@ -1,0 +1,5 @@
+﻿1. A manager is a type of employee. - Inheritance
+2. Manager has a swipe card to enter company premises. - Association
+3. He has many workers under him. - Aggregation
+4. His salary depends on project success. - Composition
+5. Project success depends on manager. - Composition

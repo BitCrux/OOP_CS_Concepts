@@ -1,0 +1,14 @@
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.exe
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.deps.json
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.runtimeconfig.json
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.runtimeconfig.dev.json
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.dll
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\bin\Debug\netcoreapp3.1\UML_Relationships.pdb
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.AssemblyInfoInputs.cache
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.AssemblyInfo.cs
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.dll
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.pdb
+C:\Users\Marko\source\repos\OOP_CS_Concepts\UML_Relationships\obj\Debug\netcoreapp3.1\UML_Relationships.genruntimeconfig.cache
