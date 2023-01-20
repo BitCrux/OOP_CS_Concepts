@@ -43,11 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductB.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\Client.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ConcreteFactory1.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ConcreteFactory2.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ProductA1.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ProductA2.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ProductB1.cs" />
+    <Compile Include="Creational_Patterns\Abstract_Factory\Source\Models\ProductB2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behavioral_Patterns\" />
+    <Folder Include="Structural_Patterns\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
