@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Structural_Patterns.ObjectAdapter.Source
 {
+    // https://www.dofactory.com/net/adapter-design-pattern
+
     // The Adapter design pattern converts the interface of a class into another interface clients expect.
     // This design pattern lets classes work together that couldn‘t otherwise because of incompatible interfaces.
 
