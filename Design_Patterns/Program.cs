@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
+using Design_Patterns.Structural_Patterns.ObjectAdapter.Source;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,11 @@ namespace Design_Patterns
     {
         static void Main(string[] args)
         {
-            AbstractFactoryDemo afDemo = new AbstractFactoryDemo();
-            afDemo.Run();
+            //AbstractFactoryDemo afDemo = new AbstractFactoryDemo();
+            //afDemo.Run();
+
+            ObjectAdapterDemo oaDemo = new ObjectAdapterDemo();
+            oaDemo.Run();
         }
     }
 }
