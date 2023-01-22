@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Behavioral_Patterns.Chain_of_Responsibility.Source;
+using Design_Patterns.Behavioral_Patterns.Command.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Structural_Patterns.Bridge.Source;
@@ -35,6 +36,9 @@ namespace Design_Patterns
 
             //ChainOfResponsibilityDemo corDemo = new ChainOfResponsibilityDemo();
             //corDemo.Run();
+
+            //CommandDemo cDemo = new CommandDemo();
+            //cDemo.Run();
         }
     }
 }
