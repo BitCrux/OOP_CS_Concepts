@@ -2,6 +2,7 @@
 using Design_Patterns.Behavioral_Patterns.Command.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
+using Design_Patterns.Creational_Patterns.Factory_Method.Source;
 using Design_Patterns.Structural_Patterns.Bridge.Source;
 using Design_Patterns.Structural_Patterns.ObjectAdapter.Source;
 using System;
@@ -23,6 +24,9 @@ namespace Design_Patterns
 
             //BuilderDemo bDemo = new BuilderDemo();
             //bDemo.Run();
+
+            FactoryMethodDemo fmDemo = new FactoryMethodDemo();
+            fmDemo.Run();
 
             //------------------------------------ Structural Patterns ---------------------------------------
 

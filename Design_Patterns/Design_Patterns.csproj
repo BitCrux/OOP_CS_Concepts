@@ -72,6 +72,13 @@
     <Compile Include="Creational_Patterns\Builder\Source\Models\ConcreteBuilder2.cs" />
     <Compile Include="Creational_Patterns\Builder\Source\Models\Director.cs" />
     <Compile Include="Creational_Patterns\Builder\Source\Models\Product.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Abstracts\Creator.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Abstracts\Product.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\FactoryMethodDemo.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Models\ConcreteCreatorA.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Models\ConcreteCreatorB.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Models\ConcreteProductA.cs" />
+    <Compile Include="Creational_Patterns\Factory_Method\Source\Models\ConcreteProductB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural_Patterns\Bridge\Source\Abstracts\Implementor.cs" />
@@ -102,6 +109,7 @@
     <Content Include="Behavioral_Patterns\Command\UML\command_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
+    <Content Include="Creational_Patterns\Factory_Method\UML\factory_method_uml.png" />
     <Content Include="Structural_Patterns\Bridge\UML\bridge_uml.png" />
     <Content Include="Structural_Patterns\ObjectAdapter\UML\object_adapter_uml.png" />
   </ItemGroup>
