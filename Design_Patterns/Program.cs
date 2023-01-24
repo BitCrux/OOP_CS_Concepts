@@ -4,6 +4,7 @@ using Design_Patterns.Behavioral_Patterns.Interpreter.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Creational_Patterns.Factory_Method.Source;
+using Design_Patterns.Creational_Patterns.Prototype.Source;
 using Design_Patterns.Structural_Patterns.Bridge.Source;
 using Design_Patterns.Structural_Patterns.Composite.Source;
 using Design_Patterns.Structural_Patterns.ObjectAdapter.Source;
@@ -30,6 +31,9 @@ namespace Design_Patterns
             //FactoryMethodDemo fmDemo = new FactoryMethodDemo();
             //fmDemo.Run();
 
+            PrototypeDemo pDemo = new PrototypeDemo();
+            pDemo.Run();
+
             //------------------------------------ Structural Patterns ---------------------------------------
 
             //ObjectAdapterDemo oaDemo = new ObjectAdapterDemo();
@@ -49,8 +53,8 @@ namespace Design_Patterns
             //CommandDemo cDemo = new CommandDemo();
             //cDemo.Run();
 
-            InterpreterDemo iDemo = new InterpreterDemo();
-            iDemo.Run();
+            //InterpreterDemo iDemo = new InterpreterDemo();
+            //iDemo.Run();
         }
     }
 }
