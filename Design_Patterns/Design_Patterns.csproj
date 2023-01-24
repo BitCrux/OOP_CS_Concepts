@@ -55,6 +55,20 @@
     <Compile Include="Behavioral_Patterns\Command\Source\Models\ConcreteCommand.cs" />
     <Compile Include="Behavioral_Patterns\Command\Source\Models\Invoker.cs" />
     <Compile Include="Behavioral_Patterns\Command\Source\Models\Receiver.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Abstracts\Expression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\Client.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\Context.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\HundredExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\InterpreterExampleDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\OneExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\TenExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Example\Models\ThousandExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\Abstracts\AbstractExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\InterpreterDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\Models\Client.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\Models\Context.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\Models\NonterminalExpression.cs" />
+    <Compile Include="Behavioral_Patterns\Interpreter\Source\Models\TerminalExpression.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -102,12 +116,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\Usage\chain_of_responsibility_usage.png" />
     <Content Include="Behavioral_Patterns\Command\UML\command_uml.png" />
     <Content Include="Behavioral_Patterns\Command\Usage\command_usage.png" />
+    <Content Include="Behavioral_Patterns\Interpreter\UML\interpreter_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />

@@ -1,5 +1,6 @@
 ﻿using Design_Patterns.Behavioral_Patterns.Chain_of_Responsibility.Source;
 using Design_Patterns.Behavioral_Patterns.Command.Source;
+using Design_Patterns.Behavioral_Patterns.Interpreter.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Creational_Patterns.Factory_Method.Source;
@@ -37,8 +38,8 @@ namespace Design_Patterns
             //BridgeDemo bDemo = new BridgeDemo();
             //bDemo.Run();
 
-            CompositeDemo cDemo = new CompositeDemo();
-            cDemo.Run();
+            //CompositeDemo cDemo = new CompositeDemo();
+            //cDemo.Run();
 
             //------------------------------------ Behavioral Patterns ---------------------------------------
 
@@ -47,6 +48,9 @@ namespace Design_Patterns
 
             //CommandDemo cDemo = new CommandDemo();
             //cDemo.Run();
+
+            InterpreterDemo iDemo = new InterpreterDemo();
+            iDemo.Run();
         }
     }
 }
