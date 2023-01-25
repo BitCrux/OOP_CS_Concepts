@@ -10,6 +10,7 @@ using Design_Patterns.Creational_Patterns.Singleton.Source;
 using Design_Patterns.Structural_Patterns.Bridge.Source;
 using Design_Patterns.Structural_Patterns.Composite.Source;
 using Design_Patterns.Structural_Patterns.Decorator.Source;
+using Design_Patterns.Structural_Patterns.Facade.Source;
 using Design_Patterns.Structural_Patterns.ObjectAdapter.Source;
 using System;
 using System.Collections.Generic;
@@ -37,8 +38,8 @@ namespace Design_Patterns
             //PrototypeDemo pDemo = new PrototypeDemo();
             //pDemo.Run();
 
-            SingletonDemo sDemo = new SingletonDemo();
-            sDemo.Run();
+            //SingletonDemo sDemo = new SingletonDemo();
+            //sDemo.Run();
 
             //------------------------------------ Structural Patterns ---------------------------------------
 
@@ -53,6 +54,9 @@ namespace Design_Patterns
 
             //DecoratorDemo dDemo = new DecoratorDemo();
             //dDemo.Run();
+
+            FacadeDemo fDemo = new FacadeDemo();
+            fDemo.Run();
 
             //------------------------------------ Behavioral Patterns ---------------------------------------
 
