@@ -13,6 +13,7 @@ using Design_Patterns.Structural_Patterns.Decorator.Source;
 using Design_Patterns.Structural_Patterns.Facade.Source;
 using Design_Patterns.Structural_Patterns.Flyweight.Source;
 using Design_Patterns.Structural_Patterns.ObjectAdapter.Source;
+using Design_Patterns.Structural_Patterns.Proxy.Source;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,8 +60,11 @@ namespace Design_Patterns
             //FacadeDemo fDemo = new FacadeDemo();
             //fDemo.Run();
 
-            FlyweightDemo fDemo = new FlyweightDemo();
-            fDemo.Run();
+            //FlyweightDemo fDemo = new FlyweightDemo();
+            //fDemo.Run();
+
+            //ProxyDemo pDemo = new ProxyDemo();
+            //pDemo.Run();
 
             //------------------------------------ Behavioral Patterns ---------------------------------------
 
