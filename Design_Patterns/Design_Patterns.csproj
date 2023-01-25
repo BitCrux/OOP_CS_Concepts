@@ -75,6 +75,12 @@
     <Compile Include="Behavioral_Patterns\Iterator\Source\Models\Client.cs" />
     <Compile Include="Behavioral_Patterns\Iterator\Source\Models\ConcreteAggregate.cs" />
     <Compile Include="Behavioral_Patterns\Iterator\Source\Models\ConcreteIterator.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\Abstracts\Colleague.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\Abstracts\Mediator.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\MediatorDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteColleague1.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteColleague2.cs" />
+    <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteMediator.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -156,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
-    <Folder Include="Structural_Patterns\Proxy\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -169,6 +174,8 @@
     <Content Include="Behavioral_Patterns\Iterator\Usage\iterator_usage_1.png" />
     <Content Include="Behavioral_Patterns\Iterator\Usage\iterator_usage_2.png" />
     <Content Include="Behavioral_Patterns\Iterator\Usage\iterator_usage_3.png" />
+    <Content Include="Behavioral_Patterns\Mediator\UML\mediator_uml.png" />
+    <Content Include="Behavioral_Patterns\Mediator\Usage\mediator_usage.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
@@ -202,6 +209,7 @@
     <Content Include="Structural_Patterns\ObjectAdapter\UML\object_adapter_uml.png" />
     <Content Include="Structural_Patterns\ObjectAdapter\Usage\object_adapter_usage.png" />
     <Content Include="Structural_Patterns\Proxy\UML\proxy_uml.png" />
+    <Content Include="Structural_Patterns\Proxy\Usage\proxy_usage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
