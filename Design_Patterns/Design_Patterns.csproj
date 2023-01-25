@@ -133,6 +133,13 @@
     <Compile Include="Structural_Patterns\Facade\Source\SubSystem2.cs" />
     <Compile Include="Structural_Patterns\Facade\Source\SubSystem3.cs" />
     <Compile Include="Structural_Patterns\Facade\Source\SubSystem4.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Abstracts\Flyweight.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\FlyweightDemo.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Models\Client.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Models\ConcreteFlyweight.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Models\Context.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Models\FlyweightFactory.cs" />
+    <Compile Include="Structural_Patterns\Flyweight\Source\Models\UnsharedConcreteFlyweight.cs" />
     <Compile Include="Structural_Patterns\ObjectAdapter\Source\Models\Adaptee.cs" />
     <Compile Include="Structural_Patterns\ObjectAdapter\Source\Models\Adapter.cs" />
     <Compile Include="Structural_Patterns\ObjectAdapter\Source\Models\Client.cs" />
@@ -144,7 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
-    <Folder Include="Structural_Patterns\Facade\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -175,6 +181,17 @@
     <Content Include="Structural_Patterns\Decorator\UML\decorator_uml.png" />
     <Content Include="Structural_Patterns\Decorator\Usage\decorator_usage.png" />
     <Content Include="Structural_Patterns\Facade\UML\facade_uml.png" />
+    <Content Include="Structural_Patterns\Facade\Usage\facade_usage.png" />
+    <Content Include="Structural_Patterns\Facade\Usage\facade_usage_1.png" />
+    <Content Include="Structural_Patterns\Facade\Usage\facade_usage_2.png" />
+    <Content Include="Structural_Patterns\Facade\Usage\facade_usage_3.png" />
+    <Content Include="Structural_Patterns\Flyweight\UML\flyweight_uml.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage_1.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage_2.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage_3.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage_4.png" />
+    <Content Include="Structural_Patterns\Flyweight\Usage\flyweight_usage_5.png" />
     <Content Include="Structural_Patterns\ObjectAdapter\UML\object_adapter_uml.png" />
     <Content Include="Structural_Patterns\ObjectAdapter\Usage\object_adapter_usage.png" />
   </ItemGroup>
