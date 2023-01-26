@@ -4,6 +4,7 @@ using Design_Patterns.Behavioral_Patterns.Interpreter.Source;
 using Design_Patterns.Behavioral_Patterns.Iterator.Source;
 using Design_Patterns.Behavioral_Patterns.Mediator.Source;
 using Design_Patterns.Behavioral_Patterns.Memento.Source;
+using Design_Patterns.Behavioral_Patterns.Observer.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Creational_Patterns.Factory_Method.Source;
@@ -85,8 +86,11 @@ namespace Design_Patterns
             //MediatorDemo mDemo = new MediatorDemo();
             //mDemo.Run();
 
-            MementoDemo mDemo = new MementoDemo();
-            mDemo.Run();
+            //MementoDemo mDemo = new MementoDemo();
+            //mDemo.Run();
+
+            ObserverDemo oDemo = new ObserverDemo();
+            oDemo.Run();
         }
     }
 }

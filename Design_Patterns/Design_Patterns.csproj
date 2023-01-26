@@ -85,6 +85,11 @@
     <Compile Include="Behavioral_Patterns\Memento\Source\Models\Memento.cs" />
     <Compile Include="Behavioral_Patterns\Memento\Source\MementoDemo.cs" />
     <Compile Include="Behavioral_Patterns\Memento\Source\Models\Originator.cs" />
+    <Compile Include="Behavioral_Patterns\Observer\Source\Abstracts\Observer.cs" />
+    <Compile Include="Behavioral_Patterns\Observer\Source\Abstracts\Subject.cs" />
+    <Compile Include="Behavioral_Patterns\Observer\Source\Models\ConcreteObserver.cs" />
+    <Compile Include="Behavioral_Patterns\Observer\Source\Models\ConcreteSubject.cs" />
+    <Compile Include="Behavioral_Patterns\Observer\Source\ObserverDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -166,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
+    <Folder Include="Behavioral_Patterns\Observer\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -182,6 +188,7 @@
     <Content Include="Behavioral_Patterns\Mediator\Usage\mediator_usage.png" />
     <Content Include="Behavioral_Patterns\Memento\UML\memento_uml.png" />
     <Content Include="Behavioral_Patterns\Memento\Usage\memento_usage.png" />
+    <Content Include="Behavioral_Patterns\Observer\UML\observer_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
