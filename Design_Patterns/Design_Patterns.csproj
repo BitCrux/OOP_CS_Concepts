@@ -81,6 +81,10 @@
     <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteColleague1.cs" />
     <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteColleague2.cs" />
     <Compile Include="Behavioral_Patterns\Mediator\Source\Models\ConcreteMediator.cs" />
+    <Compile Include="Behavioral_Patterns\Memento\Source\Models\Caretaker.cs" />
+    <Compile Include="Behavioral_Patterns\Memento\Source\Models\Memento.cs" />
+    <Compile Include="Behavioral_Patterns\Memento\Source\MementoDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Memento\Source\Models\Originator.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -176,6 +180,8 @@
     <Content Include="Behavioral_Patterns\Iterator\Usage\iterator_usage_3.png" />
     <Content Include="Behavioral_Patterns\Mediator\UML\mediator_uml.png" />
     <Content Include="Behavioral_Patterns\Mediator\Usage\mediator_usage.png" />
+    <Content Include="Behavioral_Patterns\Memento\UML\memento_uml.png" />
+    <Content Include="Behavioral_Patterns\Memento\Usage\memento_usage.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />

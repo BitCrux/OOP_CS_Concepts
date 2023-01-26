@@ -3,6 +3,7 @@ using Design_Patterns.Behavioral_Patterns.Command.Source;
 using Design_Patterns.Behavioral_Patterns.Interpreter.Source;
 using Design_Patterns.Behavioral_Patterns.Iterator.Source;
 using Design_Patterns.Behavioral_Patterns.Mediator.Source;
+using Design_Patterns.Behavioral_Patterns.Memento.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Creational_Patterns.Factory_Method.Source;
@@ -81,7 +82,10 @@ namespace Design_Patterns
             //IteratorDemo iDemo = new IteratorDemo();
             //iDemo.Run();
 
-            MediatorDemo mDemo = new MediatorDemo();
+            //MediatorDemo mDemo = new MediatorDemo();
+            //mDemo.Run();
+
+            MementoDemo mDemo = new MementoDemo();
             mDemo.Run();
         }
     }
