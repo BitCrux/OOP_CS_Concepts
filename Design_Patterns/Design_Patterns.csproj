@@ -90,6 +90,35 @@
     <Compile Include="Behavioral_Patterns\Observer\Source\Models\ConcreteObserver.cs" />
     <Compile Include="Behavioral_Patterns\Observer\Source\Models\ConcreteSubject.cs" />
     <Compile Include="Behavioral_Patterns\Observer\Source\ObserverDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\Abstracts\SortStrategy.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\Models\MergeSort.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\Models\QuickSort.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\Models\ShellSort.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\Models\SortedList.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Example\StrategyExampleDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\Abstracts\Strategy.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\Models\ConcreteStrategyA.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\Models\ConcreteStrategyB.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\Models\ConcreteStrategyC.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\Models\Context.cs" />
+    <Compile Include="Behavioral_Patterns\Stategy\Source\StrategyDemo.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\Abstracts\State.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\Models\LockedState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\Models\OffState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\Models\Phone.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\Models\ReadyState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example1\StatePhoneExampleDemo.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\Abstracts\State.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\Models\Account.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\Models\GoldState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\Models\RedState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\Models\SilverState.cs" />
+    <Compile Include="Behavioral_Patterns\State\Example2\StateAccountBalanceExample.cs" />
+    <Compile Include="Behavioral_Patterns\State\Source\Abstracts\State.cs" />
+    <Compile Include="Behavioral_Patterns\State\Source\Models\ConcreteStateA.cs" />
+    <Compile Include="Behavioral_Patterns\State\Source\Models\ConcreteStateB.cs" />
+    <Compile Include="Behavioral_Patterns\State\Source\Models\Context.cs" />
+    <Compile Include="Behavioral_Patterns\State\Source\StateDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -171,7 +200,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
-    <Folder Include="Behavioral_Patterns\Observer\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -189,6 +217,17 @@
     <Content Include="Behavioral_Patterns\Memento\UML\memento_uml.png" />
     <Content Include="Behavioral_Patterns\Memento\Usage\memento_usage.png" />
     <Content Include="Behavioral_Patterns\Observer\UML\observer_uml.png" />
+    <Content Include="Behavioral_Patterns\Observer\Usage\observer_usage.png" />
+    <Content Include="Behavioral_Patterns\Observer\Usage\observer_usage_1.png" />
+    <Content Include="Behavioral_Patterns\Stategy\UML\strategy_uml.png" />
+    <Content Include="Behavioral_Patterns\Stategy\Usage\state_vs_strategy_1.png" />
+    <Content Include="Behavioral_Patterns\Stategy\Usage\state_vs_strategy_2.png" />
+    <Content Include="Behavioral_Patterns\Stategy\Usage\strategy_usage.png" />
+    <Content Include="Behavioral_Patterns\State\UML\state_uml.png" />
+    <Content Include="Behavioral_Patterns\State\Usage\state_usage.png" />
+    <Content Include="Behavioral_Patterns\State\Usage\state_usage_1.png" />
+    <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_1.png" />
+    <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_2.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
