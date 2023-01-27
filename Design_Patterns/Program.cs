@@ -7,6 +7,7 @@ using Design_Patterns.Behavioral_Patterns.Memento.Source;
 using Design_Patterns.Behavioral_Patterns.Observer.Source;
 using Design_Patterns.Behavioral_Patterns.State.Source;
 using Design_Patterns.Behavioral_Patterns.Stategy.Source;
+using Design_Patterns.Behavioral_Patterns.Template_Method.Source;
 using Design_Patterns.Creational_Patterns.Abstract_Factory.Source;
 using Design_Patterns.Creational_Patterns.Builder.Source;
 using Design_Patterns.Creational_Patterns.Factory_Method.Source;
@@ -97,8 +98,11 @@ namespace Design_Patterns
             //StateDemo sDemo = new StateDemo();
             //sDemo.Run();
 
-            StrategyDemo sDemo = new StrategyDemo();
-            sDemo.Run();
+            //StrategyDemo sDemo = new StrategyDemo();
+            //sDemo.Run();
+
+            TemplateMethodDemo tmDemo = new TemplateMethodDemo();
+            tmDemo.Run();
         }
     }
 }

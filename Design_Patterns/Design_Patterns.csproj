@@ -119,6 +119,14 @@
     <Compile Include="Behavioral_Patterns\State\Source\Models\ConcreteStateB.cs" />
     <Compile Include="Behavioral_Patterns\State\Source\Models\Context.cs" />
     <Compile Include="Behavioral_Patterns\State\Source\StateDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Example\Abstracts\DataAccessor.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Example\Models\Categories.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Example\Models\Products.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Example\TemplateMethodExampleDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Source\Abstracts\AbstractClass.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Source\Models\ConcreteClassA.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Source\Models\ConcreteClassB.cs" />
+    <Compile Include="Behavioral_Patterns\Template_Method\Source\TemplateMethodDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -200,6 +208,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
+    <Folder Include="Behavioral_Patterns\Template_Method\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -228,6 +237,7 @@
     <Content Include="Behavioral_Patterns\State\Usage\state_usage_1.png" />
     <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_1.png" />
     <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_2.png" />
+    <Content Include="Behavioral_Patterns\Template_Method\UML\template_method_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
