@@ -14,6 +14,14 @@ namespace Lambda_Expressions
 
     //Statement Lambda
     //(input-parameters) => { <sequence-of-statements> }
+
+    //Many functions defined in the .NET framework accept lambdas as parameters.
+
+    //Lambdas are often used in conjunction with the Action class. Action 
+    //encapsulates a method that does not have a return value or a parameter.
+
+    //public void ActionExecutor(Action someAction) { someAction() }
+    //ActionExecutor( () => { this is a lambda, do some work here } );
     class Program
     {
         static void Main(string[] args)
