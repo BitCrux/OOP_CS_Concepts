@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lambda_Expressions
 {
+    //Lambdas are a pretty useful thing in C#. Lambdas represent anonymous functions we
+    //can define inline.We distinguish between expression lambdas and statement lambdas.
+
+    //Expression Lambda
+    //(input-parameters) => expression
+
+    //Statement Lambda
+    //(input-parameters) => { <sequence-of-statements> }
     class Program
     {
         static void Main(string[] args)
