@@ -127,6 +127,25 @@
     <Compile Include="Behavioral_Patterns\Template_Method\Source\Models\ConcreteClassA.cs" />
     <Compile Include="Behavioral_Patterns\Template_Method\Source\Models\ConcreteClassB.cs" />
     <Compile Include="Behavioral_Patterns\Template_Method\Source\TemplateMethodDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Abstracts\Element.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Interfaces\IVisitor.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\Clerk.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\Director.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\Employee.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\Employees.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\IncomeVisitor.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\President.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\Models\VacationVisitor.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Example\VisitorExampleDemo.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Abstracts\Element.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Abstracts\Visitor.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\Client.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\ConcreteElementA.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\ConcreteElementB.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\ConcreteVisitor1.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\ConcreteVisitor2.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\Models\ObjectStructure.cs" />
+    <Compile Include="Behavioral_Patterns\Visitor\Source\VisitorDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\AbstractFactoryDemo.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractFactory.cs" />
     <Compile Include="Creational_Patterns\Abstract_Factory\Source\Abstracts\AbstractProductA.cs" />
@@ -208,7 +227,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral_Patterns\Interpreter\Usage\" />
-    <Folder Include="Behavioral_Patterns\Template_Method\Usage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral_Patterns\Chain_of_Responsibility\UML\chain_of_responsibility_uml.png" />
@@ -238,6 +256,9 @@
     <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_1.png" />
     <Content Include="Behavioral_Patterns\State\Usage\state_vs_strategy_2.png" />
     <Content Include="Behavioral_Patterns\Template_Method\UML\template_method_uml.png" />
+    <Content Include="Behavioral_Patterns\Template_Method\Usage\template_method_usage.png" />
+    <Content Include="Behavioral_Patterns\Visitor\UML\visitor_uml.png" />
+    <Content Include="Behavioral_Patterns\Visitor\Usage\visitor_usage.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\UML\abstract_factory_uml.png" />
     <Content Include="Creational_Patterns\Abstract_Factory\Usage\abstract_factory_usage.png" />
     <Content Include="Creational_Patterns\Builder\UML\builder_uml.png" />
