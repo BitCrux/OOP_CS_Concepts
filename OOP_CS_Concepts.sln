@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_Expressions", "Lambd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Types", "Generic_Types\Generic_Types.csproj", "{A1F07950-55B2-45DC-B7E6-82E2FE3B6EBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loose_Coupled_Design_IoC_DIP_DI_Container", "Loose_Coupled_Design_IoC_DIP_DI_Container\Loose_Coupled_Design_IoC_DIP_DI_Container.csproj", "{D8C9F8A8-36C1-476A-9414-DD020034275D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{A1F07950-55B2-45DC-B7E6-82E2FE3B6EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F07950-55B2-45DC-B7E6-82E2FE3B6EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F07950-55B2-45DC-B7E6-82E2FE3B6EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C9F8A8-36C1-476A-9414-DD020034275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C9F8A8-36C1-476A-9414-DD020034275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C9F8A8-36C1-476A-9414-DD020034275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C9F8A8-36C1-476A-9414-DD020034275D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

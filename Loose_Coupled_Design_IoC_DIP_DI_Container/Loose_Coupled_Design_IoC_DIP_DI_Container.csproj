@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8C9F8A8-36C1-476A-9414-DD020034275D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Loose_Coupled_Design_IoC_DIP_DI_Container</RootNamespace>
+    <AssemblyName>Loose_Coupled_Design_IoC_DIP_DI_Container</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IoC\Source\Dependent_Classes_Example\ClassA.cs" />
+    <Compile Include="IoC\Source\Dependent_Classes_Example\ClassB.cs" />
+    <Compile Include="IoC\Source\Dependent_Classes_Example\DependentClassesExample.cs" />
+    <Compile Include="IoC\Source\Independent_Classes_Example\ClassA.cs" />
+    <Compile Include="IoC\Source\Independent_Classes_Example\ClassB.cs" />
+    <Compile Include="IoC\Source\Independent_Classes_Example\Factory.cs" />
+    <Compile Include="IoC\Source\Independent_Classes_Example\IndependentClassesExample.cs" />
+    <Compile Include="IoC\Source\IoCExamples.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Bad_Design_Tight_Coupled\BadDesignTightCoupledExample.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Bad_Design_Tight_Coupled\CustomerBusinessLogic.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Bad_Design_Tight_Coupled\DataAccess.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\CustomerBusinessLogic.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\DataAccess.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\DataAccessFactory.cs" />
+    <Compile Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\GoodDesignLooseCoupledExample.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DIP\Usage\ioc-step2.png" />
+    <Content Include="IoC\Source\NTier_Architecture_Example\Architecture\demo-architecture.png" />
+    <Content Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\IoC_Pattern\ioc-patterns.png" />
+    <Content Include="IoC\Usage\ioc-steps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DIP\Source\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
