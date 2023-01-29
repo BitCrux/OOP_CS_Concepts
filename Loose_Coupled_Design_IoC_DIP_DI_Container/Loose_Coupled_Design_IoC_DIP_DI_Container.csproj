@@ -43,6 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DIP\Source\NTier_Architecture_Example\Good_Design_DIP_Abstraction\Business\CustomerBusinessLogic.cs" />
+    <Compile Include="DIP\Source\NTier_Architecture_Example\Good_Design_DIP_Abstraction\DIPExample.cs" />
+    <Compile Include="DIP\Source\NTier_Architecture_Example\Good_Design_DIP_Abstraction\Persistence\CustomerDataAccess.cs" />
+    <Compile Include="DIP\Source\NTier_Architecture_Example\Good_Design_DIP_Abstraction\Persistence\Factories\DataAccessFactory.cs" />
+    <Compile Include="DIP\Source\NTier_Architecture_Example\Good_Design_DIP_Abstraction\Persistence\Interfaces\ICustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Constructor_Injection\Business\CustomerBusinessLogic.cs" />
+    <Compile Include="DI\Source\Constructor_Injection\ConstructorInjectionExample.cs" />
+    <Compile Include="DI\Source\Constructor_Injection\Persistence\CustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Constructor_Injection\Persistence\Interfaces\ICustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Constructor_Injection\Service\CustomerService.cs" />
+    <Compile Include="DI\Source\DependencyInjectionExamples.cs" />
+    <Compile Include="DI\Source\Method_Injection\Business\CustomerBusinessLogic.cs" />
+    <Compile Include="DI\Source\Method_Injection\MethodInjectionExample.cs" />
+    <Compile Include="DI\Source\Method_Injection\Persistence\CustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Method_Injection\Persistence\Interfaces\ICustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Method_Injection\Persistence\Interfaces\IDataAccessDependency.cs" />
+    <Compile Include="DI\Source\Method_Injection\Service\CustomerService.cs" />
+    <Compile Include="DI\Source\Property_Injection\Business\CustomerBusinessLogic.cs" />
+    <Compile Include="DI\Source\Property_Injection\Persistence\CustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Property_Injection\Persistence\Interfaces\ICustomerDataAccess.cs" />
+    <Compile Include="DI\Source\Property_Injection\PropertyInjectionExample.cs" />
+    <Compile Include="DI\Source\Property_Injection\Service\CustomerService.cs" />
     <Compile Include="IoC\Source\Dependent_Classes_Example\ClassA.cs" />
     <Compile Include="IoC\Source\Dependent_Classes_Example\ClassB.cs" />
     <Compile Include="IoC\Source\Dependent_Classes_Example\DependentClassesExample.cs" />
@@ -66,12 +88,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DIP\Usage\ioc-step2.png" />
+    <Content Include="DIP\Source\NTier_Architecture_Example\Architecture\demo-architecture.png" />
+    <Content Include="DI\Source\Relationship_Between_Classes\DI-example.png" />
+    <Content Include="DI\Source\Relationship_Between_Classes\DI.png" />
+    <Content Include="DI\Usage\ioc-step3.png" />
     <Content Include="IoC\Source\NTier_Architecture_Example\Architecture\demo-architecture.png" />
     <Content Include="IoC\Source\NTier_Architecture_Example\Good_Design_Loose_Coupled\IoC_Pattern\ioc-patterns.png" />
     <Content Include="IoC\Usage\ioc-steps.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DIP\Source\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
