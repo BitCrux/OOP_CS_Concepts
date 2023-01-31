@@ -1,0 +1,7 @@
+﻿Unity container allows us to override a registered type by using ResolverOverride. 
+The ResolverOverride is an abstract class that provides implementation for overriding registration. 
+There are three important classes which inherit ResolverOverride:
+
+ParameterOverride: Used to override constructor parameters.
+PropertyOverride: Used to override the value of a specified property.
+DependencyOverride: Used to override the type of dependency and its value.

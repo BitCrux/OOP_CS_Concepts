@@ -2,6 +2,7 @@
 using Loose_Coupled_Design_IoC_DIP_DI_Container.DI.Source.Property_Injection;
 using Loose_Coupled_Design_IoC_DIP_DI_Container.DIP.Source.NTier_Architecture_Example.Good_Design_DIP_Abstraction;
 using Loose_Coupled_Design_IoC_DIP_DI_Container.IoC.Source;
+using Loose_Coupled_Design_IoC_DIP_DI_Container.IoC_Container_Unity.Source;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,9 @@ namespace Loose_Coupled_Design_IoC_DIP_DI_Container
 
             DependencyInjectionExamples die = new DependencyInjectionExamples();
             die.Run();
+
+            UnityContainerExamples uce = new UnityContainerExamples();
+            uce.Run();
 
             Console.ReadKey();
         }
